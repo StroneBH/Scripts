@@ -2,12 +2,12 @@ script_name("MVD Helper Silver | LUA")
 script_authors('Harley AHK')
 script_description('MVD Helper LUA by Harley AHK')
 script_moonloader('26')
-script_version('1.2')
+script_version('1.3')
 
 require("lib.moonloader") 
 local dlstatus = require("moonloader").download_status
-local script_version = 1.2
-local script_version_text = "1.2"
+local script_version = 1.3
+local script_version_text = "1.3"
 local imgui = require 'imgui'
 local encoding = require 'encoding'
 local rkeys = require 'rkeys'
@@ -30,7 +30,7 @@ local update_state = false
 local update_url = "https://raw.githubusercontent.com/StroneBH/Scripts/main/update.ini"
 local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = ""
+local script_url = "https://github.com/StroneBH/Scripts/blame/main/mvd_helper_silver.lua?raw=true"
 local script_path = thisScript().path
 
 local path = getGameDirectory()..'\\moonloader\\config\\mvd_config.json' -- Путь к JSON файлу с настройками
