@@ -361,7 +361,7 @@ function main()
 
     imgui.Process = false
     
-	sampAddChatMessage(mvd.. " {FFFFFF}Здравствуйте. Вы запустили Silver MVD Helper обнова[by Harley].")
+	sampAddChatMessage(mvd.. " {FFFFFF}Здравствуйте. Вы запустили Silver MVD Helper не обнова[by Harley].")
 	sampAddChatMessage(mvd.. " {FFFFFF}Активация: Alt + G.")
 	sampAddChatMessage(mvd.. " {FFFFFF}Группа ВК: AHK Harley | Radmir RP (@ahkradmirharley)")
 	sampAddChatMessage(mvd.. " {FFFFFF}Discord: https://discord.gg/24V57kvsZr")
