@@ -30,7 +30,7 @@ local update_state = false
 local update_url = "https://raw.githubusercontent.com/StroneBH/Scripts/main/update.ini"
 local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = "https://github.com/StroneBH/Scripts/blame/main/mvd_helper_silver.lua?raw=true"
+local script_url = ""
 local script_path = thisScript().path
 
 local path = getGameDirectory()..'\\moonloader\\config\\mvd_config.json' -- Путь к JSON файлу с настройками
@@ -361,10 +361,11 @@ function main()
 
     imgui.Process = false
     
-	sampAddChatMessage(mvd.. " {FFFFFF}Здравствуйте. Вы запустили Silver MVD Helper не обнова[by Harley].")
+	sampAddChatMessage(mvd.. " {FFFFFF}Здравствуйте. Вы запустили Silver MVD Helper [by Harley].")
 	sampAddChatMessage(mvd.. " {FFFFFF}Активация: Alt + G.")
 	sampAddChatMessage(mvd.. " {FFFFFF}Группа ВК: AHK Harley | Radmir RP (@ahkradmirharley)")
 	sampAddChatMessage(mvd.. " {FFFFFF}Discord: https://discord.gg/24V57kvsZr")
+  	sampAddChatMessage(mvd.. " {FFFFFF}Версия скрипта: 1.2")
 
 	sampRegisterChatCommand("mpg",cmd_mpg)
 	sampRegisterChatCommand("mhealme",cmd_mhealme)
@@ -2948,3 +2949,4 @@ function JSONSave()
         end
     end
 end
+
