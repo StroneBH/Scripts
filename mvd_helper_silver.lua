@@ -2,12 +2,12 @@ script_name("MVD Helper Silver | LUA")
 script_authors('Harley AHK')
 script_description('MVD Helper LUA by Harley AHK')
 script_moonloader('26')
-script_version('1.1')
+script_version('1.2')
 
 require("lib.moonloader") 
 local dlstatus = require("moonloader").download_status
-local script_version = 1.1
-local script_version_text = "1.1"
+local script_version = 1.2
+local script_version_text = "1.2"
 local imgui = require 'imgui'
 local encoding = require 'encoding'
 local rkeys = require 'rkeys'
