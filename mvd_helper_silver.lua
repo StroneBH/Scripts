@@ -365,7 +365,7 @@ function main()
 	sampAddChatMessage(mvd.. " {FFFFFF}Активация: Alt + G.")
 	sampAddChatMessage(mvd.. " {FFFFFF}Группа ВК: AHK Harley | Radmir RP (@ahkradmirharley)")
 	sampAddChatMessage(mvd.. " {FFFFFF}Discord: https://discord.gg/24V57kvsZr")
-  	sampAddChatMessage(mvd.. " {FFFFFF}Версия скрипта: 1.2")
+	sampAddChatMessage(mvd.. " {FFFFFF}Вы используете версию: " .. script_version)
 
 	sampRegisterChatCommand("mpg",cmd_mpg)
 	sampRegisterChatCommand("mhealme",cmd_mhealme)
